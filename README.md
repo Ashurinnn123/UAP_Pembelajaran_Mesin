@@ -96,3 +96,9 @@ b. Plot loss menunjukkan bahwa training loss menurun drastis dari sekitar 2.5 ke
 <img src="src/assets/Classification Report MobileNetV2.png" alt="InceptionV3 Architecture" width="700">
 
 Laporan klasifikasi menunjukkan bahwa model memiliki akurasi keseluruhan sebesar 68%. Kinerja terbaik terlihat pada kelas Kankarej dengan F1-score 0.75, sementara kinerja terburuk terjadi pada kelas Dhani dengan F1-score 0.59 karena recall yang rendah (0.53). Cholistani memiliki performa yang baik dengan F1-score 0.74, didukung oleh recall tertinggi (0.75). Sebaliknya, kelas seperti Fresian dan Sibbi memiliki F1-score yang moderat (0.63), menunjukkan kesulitan model dalam mengenali sampel dari kelas ini. Rata-rata macro F1-score adalah 0.66, menunjukkan variasi performa antar kelas, sementara weighted average F1-score sebesar 0.68 mencerminkan hasil yang lebih baik untuk kelas dengan jumlah data lebih besar.
+
+<img src="src/Model/Image/Model_MobileNetV2/Evaluation/Validation/Confusion_Matrix.png" alt="InceptionV3 Architecture" width="700">
+
+## Author 👨‍💻
+
+- [@Ashurinnn123](https://github.com/Ashurinnn123)
