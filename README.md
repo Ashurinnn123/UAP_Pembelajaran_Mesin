@@ -19,7 +19,7 @@ Model yang digunakan: Pre Trained Model **_InceptionV3_** dan Pre Trained Model 
 
 **MobileNetV2 Architecture** ✨
 
-![image](./src/assetsReadme/2_mobilenetv2arch.png)
+<img src="src/assets/mobilenetv2.png" alt="InceptionV3 Architecture" width="700">
 
 ## Overview Dataset
 
