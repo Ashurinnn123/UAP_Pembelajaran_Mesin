@@ -70,3 +70,11 @@ Total parameter: 23,851,784, dengan 536,960 parameter dapat dilatih. Konfigurasi
 
 Berikut hasil dari Model setelah dilakukan Fine-Tuning menggunakan dataset : 
 <img src="src/Model/Image/Model_InceptionV3/Evaluation/Plot_visualization.png" alt="InceptionV3 Architecture" width="700">
+
+a. Plot akurasi menunjukkan bahwa training accuracy meningkat secara bertahap hingga mendekati 90%, sementara validation accuracy tetap lebih rendah dan fluktuatif, berkisar di sekitar 70%. Hal ini mengindikasikan bahwa model dapat belajar dari data pelatihan tetapi menghadapi kesulitan dalam generalisasi pada data validasi.
+
+b. Plot loss menunjukkan bahwa training loss menurun secara signifikan dari sekitar 2.5 ke nilai mendekati 0.5, sementara validation loss justru meningkat secara bertahap setelah beberapa epoch awal. Pola ini menunjukkan bahwa model mungkin mengalami overfitting, di mana model menjadi terlalu cocok dengan data pelatihan namun performanya menurun pada data validasi.
+
+<img src="src/assets/Classification Report InceptionV3.png" alt="InceptionV3 Architecture" width="700">
+
+Laporan klasifikasi menunjukkan bahwa model memiliki akurasi keseluruhan sebesar 66%. Kinerja terbaik terlihat pada kelas Kankarej dengan F1-score 0.76, sementara kinerja terburuk terjadi pada kelas Unidentified (mixed) dengan F1-score 0.41 karena recall yang sangat rendah (0.31). Cholistani memiliki recall tertinggi (0.82), tetapi precision-nya lebih rendah (0.62). Sebaliknya, kelas seperti Dhani dan Fresian memiliki F1-score yang rendah (0.56 dan 0.58) karena kesulitan model dalam mengenali sampel dari kelas ini. Rata-rata macro F1-score adalah 0.63, yang menunjukkan bahwa model memiliki performa yang tidak konsisten antar kelas, sementara weighted average F1-score 0.65 mengindikasikan hasil yang lebih baik untuk kelas dengan lebih banyak data.
