@@ -1,0 +1,15 @@
+[project]
+name = "UAP_ML_B"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Hilmi Naufal", email = "119656675+Ashurinnn123@users.noreply.github.com"},
+]
+dependencies = ["streamlit>=1.41.1", "tensorflow>=2.18.0", "joblib>=1.4.2", "scikit-learn>=1.6.0"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

@@ -1,0 +1,14 @@
+                      precision    recall  f1-score   support
+
+             brahman       0.78      0.67      0.72        57
+          cholistani       0.62      0.82      0.71       144
+               dhani       0.69      0.47      0.56        19
+             fresian       0.68      0.51      0.58        49
+            kankarej       0.79      0.73      0.76        15
+             sahiwal       0.68      0.62      0.65        80
+               sibbi       0.54      0.70      0.61        27
+unidentified (mixed)       0.60      0.31      0.41        39
+
+            accuracy                           0.66       430
+           macro avg       0.67      0.60      0.63       430
+        weighted avg       0.66      0.66      0.65       430

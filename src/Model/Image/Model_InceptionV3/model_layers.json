@@ -1,0 +1,1592 @@
+[
+    {
+        "name": "input_layer",
+        "class_name": "InputLayer",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d",
+        "class_name": "Conv2D",
+        "num_params": 864
+    },
+    {
+        "name": "batch_normalization",
+        "class_name": "BatchNormalization",
+        "num_params": 96
+    },
+    {
+        "name": "activation",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_1",
+        "class_name": "Conv2D",
+        "num_params": 9216
+    },
+    {
+        "name": "batch_normalization_1",
+        "class_name": "BatchNormalization",
+        "num_params": 96
+    },
+    {
+        "name": "activation_1",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_2",
+        "class_name": "Conv2D",
+        "num_params": 18432
+    },
+    {
+        "name": "batch_normalization_2",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "activation_2",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "max_pooling2d",
+        "class_name": "MaxPooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_3",
+        "class_name": "Conv2D",
+        "num_params": 5120
+    },
+    {
+        "name": "batch_normalization_3",
+        "class_name": "BatchNormalization",
+        "num_params": 240
+    },
+    {
+        "name": "activation_3",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_4",
+        "class_name": "Conv2D",
+        "num_params": 138240
+    },
+    {
+        "name": "batch_normalization_4",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_4",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "max_pooling2d_1",
+        "class_name": "MaxPooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_8",
+        "class_name": "Conv2D",
+        "num_params": 12288
+    },
+    {
+        "name": "batch_normalization_8",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "activation_8",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_6",
+        "class_name": "Conv2D",
+        "num_params": 9216
+    },
+    {
+        "name": "conv2d_9",
+        "class_name": "Conv2D",
+        "num_params": 55296
+    },
+    {
+        "name": "batch_normalization_6",
+        "class_name": "BatchNormalization",
+        "num_params": 144
+    },
+    {
+        "name": "batch_normalization_9",
+        "class_name": "BatchNormalization",
+        "num_params": 288
+    },
+    {
+        "name": "activation_6",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_9",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "average_pooling2d",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_5",
+        "class_name": "Conv2D",
+        "num_params": 12288
+    },
+    {
+        "name": "conv2d_7",
+        "class_name": "Conv2D",
+        "num_params": 76800
+    },
+    {
+        "name": "conv2d_10",
+        "class_name": "Conv2D",
+        "num_params": 82944
+    },
+    {
+        "name": "conv2d_11",
+        "class_name": "Conv2D",
+        "num_params": 6144
+    },
+    {
+        "name": "batch_normalization_5",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "batch_normalization_7",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "batch_normalization_10",
+        "class_name": "BatchNormalization",
+        "num_params": 288
+    },
+    {
+        "name": "batch_normalization_11",
+        "class_name": "BatchNormalization",
+        "num_params": 96
+    },
+    {
+        "name": "activation_5",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_7",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_10",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_11",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed0",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_15",
+        "class_name": "Conv2D",
+        "num_params": 16384
+    },
+    {
+        "name": "batch_normalization_15",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "activation_15",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_13",
+        "class_name": "Conv2D",
+        "num_params": 12288
+    },
+    {
+        "name": "conv2d_16",
+        "class_name": "Conv2D",
+        "num_params": 55296
+    },
+    {
+        "name": "batch_normalization_13",
+        "class_name": "BatchNormalization",
+        "num_params": 144
+    },
+    {
+        "name": "batch_normalization_16",
+        "class_name": "BatchNormalization",
+        "num_params": 288
+    },
+    {
+        "name": "activation_13",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_16",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "average_pooling2d_1",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_12",
+        "class_name": "Conv2D",
+        "num_params": 16384
+    },
+    {
+        "name": "conv2d_14",
+        "class_name": "Conv2D",
+        "num_params": 76800
+    },
+    {
+        "name": "conv2d_17",
+        "class_name": "Conv2D",
+        "num_params": 82944
+    },
+    {
+        "name": "conv2d_18",
+        "class_name": "Conv2D",
+        "num_params": 16384
+    },
+    {
+        "name": "batch_normalization_12",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "batch_normalization_14",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "batch_normalization_17",
+        "class_name": "BatchNormalization",
+        "num_params": 288
+    },
+    {
+        "name": "batch_normalization_18",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "activation_12",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_14",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_17",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_18",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed1",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_22",
+        "class_name": "Conv2D",
+        "num_params": 18432
+    },
+    {
+        "name": "batch_normalization_22",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "activation_22",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_20",
+        "class_name": "Conv2D",
+        "num_params": 13824
+    },
+    {
+        "name": "conv2d_23",
+        "class_name": "Conv2D",
+        "num_params": 55296
+    },
+    {
+        "name": "batch_normalization_20",
+        "class_name": "BatchNormalization",
+        "num_params": 144
+    },
+    {
+        "name": "batch_normalization_23",
+        "class_name": "BatchNormalization",
+        "num_params": 288
+    },
+    {
+        "name": "activation_20",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_23",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "average_pooling2d_2",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_19",
+        "class_name": "Conv2D",
+        "num_params": 18432
+    },
+    {
+        "name": "conv2d_21",
+        "class_name": "Conv2D",
+        "num_params": 76800
+    },
+    {
+        "name": "conv2d_24",
+        "class_name": "Conv2D",
+        "num_params": 82944
+    },
+    {
+        "name": "conv2d_25",
+        "class_name": "Conv2D",
+        "num_params": 18432
+    },
+    {
+        "name": "batch_normalization_19",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "batch_normalization_21",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "batch_normalization_24",
+        "class_name": "BatchNormalization",
+        "num_params": 288
+    },
+    {
+        "name": "batch_normalization_25",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "activation_19",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_21",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_24",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_25",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed2",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_27",
+        "class_name": "Conv2D",
+        "num_params": 18432
+    },
+    {
+        "name": "batch_normalization_27",
+        "class_name": "BatchNormalization",
+        "num_params": 192
+    },
+    {
+        "name": "activation_27",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_28",
+        "class_name": "Conv2D",
+        "num_params": 55296
+    },
+    {
+        "name": "batch_normalization_28",
+        "class_name": "BatchNormalization",
+        "num_params": 288
+    },
+    {
+        "name": "activation_28",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_26",
+        "class_name": "Conv2D",
+        "num_params": 995328
+    },
+    {
+        "name": "conv2d_29",
+        "class_name": "Conv2D",
+        "num_params": 82944
+    },
+    {
+        "name": "batch_normalization_26",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_29",
+        "class_name": "BatchNormalization",
+        "num_params": 288
+    },
+    {
+        "name": "activation_26",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_29",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "max_pooling2d_2",
+        "class_name": "MaxPooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "mixed3",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_34",
+        "class_name": "Conv2D",
+        "num_params": 98304
+    },
+    {
+        "name": "batch_normalization_34",
+        "class_name": "BatchNormalization",
+        "num_params": 384
+    },
+    {
+        "name": "activation_34",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_35",
+        "class_name": "Conv2D",
+        "num_params": 114688
+    },
+    {
+        "name": "batch_normalization_35",
+        "class_name": "BatchNormalization",
+        "num_params": 384
+    },
+    {
+        "name": "activation_35",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_31",
+        "class_name": "Conv2D",
+        "num_params": 98304
+    },
+    {
+        "name": "conv2d_36",
+        "class_name": "Conv2D",
+        "num_params": 114688
+    },
+    {
+        "name": "batch_normalization_31",
+        "class_name": "BatchNormalization",
+        "num_params": 384
+    },
+    {
+        "name": "batch_normalization_36",
+        "class_name": "BatchNormalization",
+        "num_params": 384
+    },
+    {
+        "name": "activation_31",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_36",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_32",
+        "class_name": "Conv2D",
+        "num_params": 114688
+    },
+    {
+        "name": "conv2d_37",
+        "class_name": "Conv2D",
+        "num_params": 114688
+    },
+    {
+        "name": "batch_normalization_32",
+        "class_name": "BatchNormalization",
+        "num_params": 384
+    },
+    {
+        "name": "batch_normalization_37",
+        "class_name": "BatchNormalization",
+        "num_params": 384
+    },
+    {
+        "name": "activation_32",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_37",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "average_pooling2d_3",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_30",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "conv2d_33",
+        "class_name": "Conv2D",
+        "num_params": 172032
+    },
+    {
+        "name": "conv2d_38",
+        "class_name": "Conv2D",
+        "num_params": 172032
+    },
+    {
+        "name": "conv2d_39",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "batch_normalization_30",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_33",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_38",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_39",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_30",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_33",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_38",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_39",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed4",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_44",
+        "class_name": "Conv2D",
+        "num_params": 122880
+    },
+    {
+        "name": "batch_normalization_44",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "activation_44",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_45",
+        "class_name": "Conv2D",
+        "num_params": 179200
+    },
+    {
+        "name": "batch_normalization_45",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "activation_45",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_41",
+        "class_name": "Conv2D",
+        "num_params": 122880
+    },
+    {
+        "name": "conv2d_46",
+        "class_name": "Conv2D",
+        "num_params": 179200
+    },
+    {
+        "name": "batch_normalization_41",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "batch_normalization_46",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "activation_41",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_46",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_42",
+        "class_name": "Conv2D",
+        "num_params": 179200
+    },
+    {
+        "name": "conv2d_47",
+        "class_name": "Conv2D",
+        "num_params": 179200
+    },
+    {
+        "name": "batch_normalization_42",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "batch_normalization_47",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "activation_42",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_47",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "average_pooling2d_4",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_40",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "conv2d_43",
+        "class_name": "Conv2D",
+        "num_params": 215040
+    },
+    {
+        "name": "conv2d_48",
+        "class_name": "Conv2D",
+        "num_params": 215040
+    },
+    {
+        "name": "conv2d_49",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "batch_normalization_40",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_43",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_48",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_49",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_40",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_43",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_48",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_49",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed5",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_54",
+        "class_name": "Conv2D",
+        "num_params": 122880
+    },
+    {
+        "name": "batch_normalization_54",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "activation_54",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_55",
+        "class_name": "Conv2D",
+        "num_params": 179200
+    },
+    {
+        "name": "batch_normalization_55",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "activation_55",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_51",
+        "class_name": "Conv2D",
+        "num_params": 122880
+    },
+    {
+        "name": "conv2d_56",
+        "class_name": "Conv2D",
+        "num_params": 179200
+    },
+    {
+        "name": "batch_normalization_51",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "batch_normalization_56",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "activation_51",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_56",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_52",
+        "class_name": "Conv2D",
+        "num_params": 179200
+    },
+    {
+        "name": "conv2d_57",
+        "class_name": "Conv2D",
+        "num_params": 179200
+    },
+    {
+        "name": "batch_normalization_52",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "batch_normalization_57",
+        "class_name": "BatchNormalization",
+        "num_params": 480
+    },
+    {
+        "name": "activation_52",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_57",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "average_pooling2d_5",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_50",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "conv2d_53",
+        "class_name": "Conv2D",
+        "num_params": 215040
+    },
+    {
+        "name": "conv2d_58",
+        "class_name": "Conv2D",
+        "num_params": 215040
+    },
+    {
+        "name": "conv2d_59",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "batch_normalization_50",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_53",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_58",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_59",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_50",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_53",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_58",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_59",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed6",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_64",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "batch_normalization_64",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_64",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_65",
+        "class_name": "Conv2D",
+        "num_params": 258048
+    },
+    {
+        "name": "batch_normalization_65",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_65",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_61",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "conv2d_66",
+        "class_name": "Conv2D",
+        "num_params": 258048
+    },
+    {
+        "name": "batch_normalization_61",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_66",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_61",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_66",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_62",
+        "class_name": "Conv2D",
+        "num_params": 258048
+    },
+    {
+        "name": "conv2d_67",
+        "class_name": "Conv2D",
+        "num_params": 258048
+    },
+    {
+        "name": "batch_normalization_62",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_67",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_62",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_67",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "average_pooling2d_6",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_60",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "conv2d_63",
+        "class_name": "Conv2D",
+        "num_params": 258048
+    },
+    {
+        "name": "conv2d_68",
+        "class_name": "Conv2D",
+        "num_params": 258048
+    },
+    {
+        "name": "conv2d_69",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "batch_normalization_60",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_63",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_68",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_69",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_60",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_63",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_68",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_69",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed7",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_72",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "batch_normalization_72",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_72",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_73",
+        "class_name": "Conv2D",
+        "num_params": 258048
+    },
+    {
+        "name": "batch_normalization_73",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_73",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_70",
+        "class_name": "Conv2D",
+        "num_params": 147456
+    },
+    {
+        "name": "conv2d_74",
+        "class_name": "Conv2D",
+        "num_params": 258048
+    },
+    {
+        "name": "batch_normalization_70",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "batch_normalization_74",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_70",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_74",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_71",
+        "class_name": "Conv2D",
+        "num_params": 552960
+    },
+    {
+        "name": "conv2d_75",
+        "class_name": "Conv2D",
+        "num_params": 331776
+    },
+    {
+        "name": "batch_normalization_71",
+        "class_name": "BatchNormalization",
+        "num_params": 960
+    },
+    {
+        "name": "batch_normalization_75",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_71",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_75",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "max_pooling2d_3",
+        "class_name": "MaxPooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "mixed8",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_80",
+        "class_name": "Conv2D",
+        "num_params": 573440
+    },
+    {
+        "name": "batch_normalization_80",
+        "class_name": "BatchNormalization",
+        "num_params": 1344
+    },
+    {
+        "name": "activation_80",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_77",
+        "class_name": "Conv2D",
+        "num_params": 491520
+    },
+    {
+        "name": "conv2d_81",
+        "class_name": "Conv2D",
+        "num_params": 1548288
+    },
+    {
+        "name": "batch_normalization_77",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_81",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "activation_77",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_81",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_78",
+        "class_name": "Conv2D",
+        "num_params": 442368
+    },
+    {
+        "name": "conv2d_79",
+        "class_name": "Conv2D",
+        "num_params": 442368
+    },
+    {
+        "name": "conv2d_82",
+        "class_name": "Conv2D",
+        "num_params": 442368
+    },
+    {
+        "name": "conv2d_83",
+        "class_name": "Conv2D",
+        "num_params": 442368
+    },
+    {
+        "name": "average_pooling2d_7",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_76",
+        "class_name": "Conv2D",
+        "num_params": 409600
+    },
+    {
+        "name": "batch_normalization_78",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_79",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_82",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_83",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "conv2d_84",
+        "class_name": "Conv2D",
+        "num_params": 245760
+    },
+    {
+        "name": "batch_normalization_76",
+        "class_name": "BatchNormalization",
+        "num_params": 960
+    },
+    {
+        "name": "activation_78",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_79",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_82",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_83",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "batch_normalization_84",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_76",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed9_0",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "concatenate",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "activation_84",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed9",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_89",
+        "class_name": "Conv2D",
+        "num_params": 917504
+    },
+    {
+        "name": "batch_normalization_89",
+        "class_name": "BatchNormalization",
+        "num_params": 1344
+    },
+    {
+        "name": "activation_89",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_86",
+        "class_name": "Conv2D",
+        "num_params": 786432
+    },
+    {
+        "name": "conv2d_90",
+        "class_name": "Conv2D",
+        "num_params": 1548288
+    },
+    {
+        "name": "batch_normalization_86",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_90",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "activation_86",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_90",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_87",
+        "class_name": "Conv2D",
+        "num_params": 442368
+    },
+    {
+        "name": "conv2d_88",
+        "class_name": "Conv2D",
+        "num_params": 442368
+    },
+    {
+        "name": "conv2d_91",
+        "class_name": "Conv2D",
+        "num_params": 442368
+    },
+    {
+        "name": "conv2d_92",
+        "class_name": "Conv2D",
+        "num_params": 442368
+    },
+    {
+        "name": "average_pooling2d_8",
+        "class_name": "AveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "conv2d_85",
+        "class_name": "Conv2D",
+        "num_params": 655360
+    },
+    {
+        "name": "batch_normalization_87",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_88",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_91",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "batch_normalization_92",
+        "class_name": "BatchNormalization",
+        "num_params": 1152
+    },
+    {
+        "name": "conv2d_93",
+        "class_name": "Conv2D",
+        "num_params": 393216
+    },
+    {
+        "name": "batch_normalization_85",
+        "class_name": "BatchNormalization",
+        "num_params": 960
+    },
+    {
+        "name": "activation_87",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_88",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_91",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "activation_92",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "batch_normalization_93",
+        "class_name": "BatchNormalization",
+        "num_params": 576
+    },
+    {
+        "name": "activation_85",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed9_1",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "concatenate_1",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "activation_93",
+        "class_name": "Activation",
+        "num_params": 0
+    },
+    {
+        "name": "mixed10",
+        "class_name": "Concatenate",
+        "num_params": 0
+    },
+    {
+        "name": "global_average_pooling2d",
+        "class_name": "GlobalAveragePooling2D",
+        "num_params": 0
+    },
+    {
+        "name": "batch_normalization_94",
+        "class_name": "BatchNormalization",
+        "num_params": 8192
+    },
+    {
+        "name": "dense",
+        "class_name": "Dense",
+        "num_params": 262272
+    },
+    {
+        "name": "dropout",
+        "class_name": "Dropout",
+        "num_params": 0
+    },
+    {
+        "name": "dense_1",
+        "class_name": "Dense",
+        "num_params": 8256
+    },
+    {
+        "name": "dropout_1",
+        "class_name": "Dropout",
+        "num_params": 0
+    },
+    {
+        "name": "dense_2",
+        "class_name": "Dense",
+        "num_params": 520
+    }
+]
