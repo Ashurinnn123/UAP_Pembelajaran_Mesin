@@ -63,7 +63,7 @@ c. Deploy Streamlit Model
     - Contrast
 - Konfigurasi ini memungkinkan model untuk belajar dari berbagai variasi gambar selama training, sementara preprocessing untuk evaluasi tetap konsisten.
 
-## InceptionV3: Modelling & Evaluation ✨
+### InceptionV3: Modelling & Evaluation ✨
 Model ini menggunakan InceptionV3 sebagai base model yang telah dilatih dengan ImageNet dan dibekukan untuk tahap awal transfer learning. Arsitektur ini ditambahkan lapisan kustom seperti Global Average Pooling, Batch Normalization, beberapa lapisan dense dengan aktivasi ReLU, dan Dropout untuk mencegah overfitting. Lapisan output memiliki jumlah unit sesuai dengan jumlah kelas yang ingin diklasifikasikan menggunakan fungsi aktivasi Softmax.
 
 Total parameter: 23,851,784, dengan 536,960 parameter dapat dilatih. Konfigurasi ini memanfaatkan keunggulan InceptionV3 untuk ekstraksi fitur dan lapisan tambahan dilatih untuk klasifikasi yang lebih spesifik.
@@ -78,3 +78,17 @@ b. Plot loss menunjukkan bahwa training loss menurun secara signifikan dari seki
 <img src="src/assets/Classification Report InceptionV3.png" alt="InceptionV3 Architecture" width="700">
 
 Laporan klasifikasi menunjukkan bahwa model memiliki akurasi keseluruhan sebesar 66%. Kinerja terbaik terlihat pada kelas Kankarej dengan F1-score 0.76, sementara kinerja terburuk terjadi pada kelas Unidentified (mixed) dengan F1-score 0.41 karena recall yang sangat rendah (0.31). Cholistani memiliki recall tertinggi (0.82), tetapi precision-nya lebih rendah (0.62). Sebaliknya, kelas seperti Dhani dan Fresian memiliki F1-score yang rendah (0.56 dan 0.58) karena kesulitan model dalam mengenali sampel dari kelas ini. Rata-rata macro F1-score adalah 0.63, yang menunjukkan bahwa model memiliki performa yang tidak konsisten antar kelas, sementara weighted average F1-score 0.65 mengindikasikan hasil yang lebih baik untuk kelas dengan lebih banyak data.
+
+<img src="src/Model/Image/Model_InceptionV3/Evaluation/Validation/Confusion_Matrix.png" alt="InceptionV3 Architecture" width="700">
+
+### MobileNetV2 : Modelling & Evaluation✨
+
+Model ini menggunakan MobileNetV2 yang telah dilatih dengan ImageNet sebagai ekstraktor fitur, dengan lapisan kustom seperti Global Average Pooling, Batch Normalization, dua lapisan Dense (128 dan 64 unit, ReLU), dan lapisan output Softmax untuk klasifikasi multi-kelas. Total params: 2,786,458 (10.63 MB), Trainable params: 175,304 (684.78 KB), Non-trainable params: 2,260,544 (8.62 MB), Optimizer params: 350,610 (1.34 MB). Model ini dioptimalkan menggunakan Adam dengan learning rate 0.001 dan loss function categorical crossentropy.
+
+Berikut hasil dari Model setelah dilakukan Fine-Tuning menggunakan dataset tersebut:
+
+<img src="src/Model/Image/Model_MobileNetV2/Evaluation/Plot_visualization.png" alt="InceptionV3 Architecture" width="700">
+
+a. Plot akurasi menunjukkan bahwa training accuracy meningkat hingga mendekati 100%, sementara validation accuracy stagnan di sekitar 60-70% dengan sedikit fluktuasi. Hal ini menunjukkan bahwa model belajar dengan baik pada data pelatihan tetapi kesulitan dalam generalisasi terhadap data validasi.
+
+b. Plot loss menunjukkan bahwa training loss menurun drastis dari sekitar 2.5 ke nilai mendekati 0.1, sedangkan validation loss mulai meningkat secara bertahap setelah beberapa epoch awal. Pola ini menunjukkan adanya overfitting, di mana model terlalu menyesuaikan data pelatihan sehingga kinerjanya memburuk pada data validasi.
