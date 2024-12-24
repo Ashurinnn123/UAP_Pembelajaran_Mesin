@@ -63,10 +63,10 @@ c. Deploy Streamlit Model
     - Contrast
 - Konfigurasi ini memungkinkan model untuk belajar dari berbagai variasi gambar selama training, sementara preprocessing untuk evaluasi tetap konsisten.
 
-InceptionV3: Modelling & Evaluation ✨
+## InceptionV3: Modelling & Evaluation ✨
 Model ini menggunakan InceptionV3 sebagai base model yang telah dilatih dengan ImageNet dan dibekukan untuk tahap awal transfer learning. Arsitektur ini ditambahkan lapisan kustom seperti Global Average Pooling, Batch Normalization, beberapa lapisan dense dengan aktivasi ReLU, dan Dropout untuk mencegah overfitting. Lapisan output memiliki jumlah unit sesuai dengan jumlah kelas yang ingin diklasifikasikan menggunakan fungsi aktivasi Softmax.
 
 Total parameter: 23,851,784, dengan 536,960 parameter dapat dilatih. Konfigurasi ini memanfaatkan keunggulan InceptionV3 untuk ekstraksi fitur dan lapisan tambahan dilatih untuk klasifikasi yang lebih spesifik.
 
 Berikut hasil dari Model setelah dilakukan Fine-Tuning menggunakan dataset : 
-<img src="Model/Image/Model_InceptionV3/Evaluation/Plot_visualization.png" alt="InceptionV3 Architecture" width="700">
+<img src="src/Model/mage/Model_InceptionV3/Evaluation/Plot_visualization.png" alt="InceptionV3 Architecture" width="700">
