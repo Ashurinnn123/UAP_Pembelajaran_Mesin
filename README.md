@@ -92,3 +92,7 @@ Berikut hasil dari Model setelah dilakukan Fine-Tuning menggunakan dataset terse
 a. Plot akurasi menunjukkan bahwa training accuracy meningkat hingga mendekati 100%, sementara validation accuracy stagnan di sekitar 60-70% dengan sedikit fluktuasi. Hal ini menunjukkan bahwa model belajar dengan baik pada data pelatihan tetapi kesulitan dalam generalisasi terhadap data validasi.
 
 b. Plot loss menunjukkan bahwa training loss menurun drastis dari sekitar 2.5 ke nilai mendekati 0.1, sedangkan validation loss mulai meningkat secara bertahap setelah beberapa epoch awal. Pola ini menunjukkan adanya overfitting, di mana model terlalu menyesuaikan data pelatihan sehingga kinerjanya memburuk pada data validasi.
+
+<img src="src/assets/Classification Report MobileNetV2.png" alt="InceptionV3 Architecture" width="700">
+
+Laporan klasifikasi menunjukkan bahwa model memiliki akurasi keseluruhan sebesar 68%. Kinerja terbaik terlihat pada kelas Kankarej dengan F1-score 0.75, sementara kinerja terburuk terjadi pada kelas Dhani dengan F1-score 0.59 karena recall yang rendah (0.53). Cholistani memiliki performa yang baik dengan F1-score 0.74, didukung oleh recall tertinggi (0.75). Sebaliknya, kelas seperti Fresian dan Sibbi memiliki F1-score yang moderat (0.63), menunjukkan kesulitan model dalam mengenali sampel dari kelas ini. Rata-rata macro F1-score adalah 0.66, menunjukkan variasi performa antar kelas, sementara weighted average F1-score sebesar 0.68 mencerminkan hasil yang lebih baik untuk kelas dengan jumlah data lebih besar.
