@@ -69,4 +69,4 @@ Model ini menggunakan InceptionV3 sebagai base model yang telah dilatih dengan I
 Total parameter: 23,851,784, dengan 536,960 parameter dapat dilatih. Konfigurasi ini memanfaatkan keunggulan InceptionV3 untuk ekstraksi fitur dan lapisan tambahan dilatih untuk klasifikasi yang lebih spesifik.
 
 Berikut hasil dari Model setelah dilakukan Fine-Tuning menggunakan dataset : 
-<img src="src/Model/mage/Model_InceptionV3/Evaluation/Plot_visualization.png" alt="InceptionV3 Architecture" width="700">
+<img src="src/Model/Image/Model_InceptionV3/Evaluation/Plot_visualization.png" alt="InceptionV3 Architecture" width="700">
