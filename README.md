@@ -36,14 +36,37 @@ a. Model
 
 b. Streamlit
 
-1. Clone Project Ini
-2. PDM : [Dokumentasi PDM](https://pdm-project.org/)
-3. PDM init
-4. PDM add tensorflow numpy streamlit
-5. Run app.py melalui localhost
+1. Pdm add streamlit scikit-learn
+
+install tensorflow dipdm
+2. Pdm info -> pastikan sudah berada di .venv
+3. Pdm run python -m pip show tensorflow -> cek tensorflow apakah sudah di .venv
+4. Pdm run python -m ensurepip --upgrade
+5. Pdm run python -m pip install tensorflow
+6. Pdm run python -c "import tensorflow as tf; print(tf._version_)"
 
 c. Deploy Streamlit Model
 
 1. Upload All File Diluar Environtment PDM (.gitignore)
 2. Deploy dan Bake melalui streamlit dengan terhubung dengan github[Dokumentasi Streamlit](https://docs.streamlit.io/)
 3. Run dengan address deployment dengan akhiran **.io**
+
+## Deskripsi : Model, Hasil, Analisis
+**Preprocessing**
+
+- Generator training menggunakan ImageDataGenerator untuk memuat dan memproses gambar dari direktori yang ditentukan.
+- Gambar diubah ukurannya menjadi 224x224 piksel dengan batch size 64.
+- Augmentasi data diterapkan pada gambar training dengan langkah-langkah berikut:
+    - Zoom 
+    - Translasi
+    - Brightness
+    - Contrast
+- Konfigurasi ini memungkinkan model untuk belajar dari berbagai variasi gambar selama training, sementara preprocessing untuk evaluasi tetap konsisten.
+
+InceptionV3: Modelling & Evaluation ✨
+Model ini menggunakan InceptionV3 sebagai base model yang telah dilatih dengan ImageNet dan dibekukan untuk tahap awal transfer learning. Arsitektur ini ditambahkan lapisan kustom seperti Global Average Pooling, Batch Normalization, beberapa lapisan dense dengan aktivasi ReLU, dan Dropout untuk mencegah overfitting. Lapisan output memiliki jumlah unit sesuai dengan jumlah kelas yang ingin diklasifikasikan menggunakan fungsi aktivasi Softmax.
+
+Total parameter: 23,851,784, dengan 536,960 parameter dapat dilatih. Konfigurasi ini memanfaatkan keunggulan InceptionV3 untuk ekstraksi fitur dan lapisan tambahan dilatih untuk klasifikasi yang lebih spesifik.
+
+Berikut hasil dari Model setelah dilakukan Fine-Tuning menggunakan dataset : 
+<img src="Model/Image/Model_InceptionV3/Evaluation/Plot_visualization.png" alt="InceptionV3 Architecture" width="700">
