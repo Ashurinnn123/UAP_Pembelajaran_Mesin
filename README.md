@@ -99,6 +99,22 @@ Laporan klasifikasi menunjukkan bahwa model memiliki akurasi keseluruhan sebesar
 
 <img src="src/Model/Image/Model_MobileNetV2/Evaluation/Validation/Confusion_Matrix.png" alt="InceptionV3 Architecture" width="700">
 
+## Local Web Deployment
+
+### Tampilan HomePage
+
+![image](assets/hp.png)
+
+### Tampilan HomePage Setelah Upload Image
+
+![image](assets/up.png)
+
+### Tampilan Prediction Result
+
+![image](assets/result1.png)
+![image](assets/result2.png)
+![image](assets/result3.png)
+
 ## Author 👨‍💻
 
-- [@Ashurinnn123](https://github.com/Ashurinnn123)
+- Hilmi Naufal Ramadhani | 202110370311498 [@Ashurinnn123](https://github.com/Ashurinnn123)
