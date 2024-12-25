@@ -103,17 +103,17 @@ Laporan klasifikasi menunjukkan bahwa model memiliki akurasi keseluruhan sebesar
 
 ### Tampilan HomePage
 
-![image](assets/hp.png)
+![image](src/assets/hp.png)
 
 ### Tampilan HomePage Setelah Upload Image
 
-![image](assets/up.png)
+![image](src/assets/up.png)
 
 ### Tampilan Prediction Result
 
-![image](assets/result1.png)
-![image](assets/result2.png)
-![image](assets/result3.png)
+![image](src/assets/result1.png)
+![image](src/assets/result2.png)
+![image](src/assets/result3.png)
 
 ## Author 👨‍💻
 
