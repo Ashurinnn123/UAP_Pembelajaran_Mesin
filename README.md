@@ -26,6 +26,7 @@ Model yang digunakan: Pre Trained Model **_InceptionV3_** dan Pre Trained Model 
 Dataset yang digunakan adalah Dataset citra sapi. Dataset terdiri atas 2.167 data yang terbagi menjadi 70% sebagai Training Set, 20% sebagai Validation Set, dan 10% sebagai Testing Set, dimana pada setiap Set, terdapat 8 Label Class yaitu 'brahman', 'cholistani', 'dhani', 'fresian', 'kankarej', 'sahiwal', 'sibbi', 'unidentified (mixed)'.
 
 ## Langkah Instalasi
+dependencies = ["tensorflow>=2.18.0", "joblib>=1.4.2", "scikit-learn>=1.6.0", "streamlit>=1.41.1"]
 
 a. Model
 
@@ -36,20 +37,24 @@ a. Model
 
 b. Streamlit
 
-1. Pdm add streamlit scikit-learn
+1. wajib pdm init terlebih dahulu
 
-install tensorflow dipdm
-2. Pdm info -> pastikan sudah berada di .venv
-3. Pdm run python -m pip show tensorflow -> cek tensorflow apakah sudah di .venv
-4. Pdm run python -m ensurepip --upgrade
-5. Pdm run python -m pip install tensorflow
-6. Pdm run python -c "import tensorflow as tf; print(tf._version_)"
+- install tensorflow di pdm =
+- pdm info -> pastikan sudah berada di .venv
+- pdm run python -m pip show tensorflow -> cek tensorflow apakah sudah di .venv
+- pdm run python -m ensurepip --upgrade
+- pdm run python -m pip install tensorflow
+- pdm run python -c "import tensorflow as tf; print(tf._version_)
 
-c. Deploy Streamlit Model
+## Struktur File 📄
+- code/: Berkas kode ipynb dari model klasifikasi.
+- src/**app.py**: Berkas aplikasi utama yang berisi rute dan fungsi.
+- src/**klasifikasi_citra.py**: Berkas penerapan dari model untuk klasifikasi dan tampilan antarmuka web.
+- src/Model/: Berisi saved model berformat .h5 dari kedua arsitektur.
 
-1. Upload All File Diluar Environtment PDM (.gitignore)
-2. Deploy dan Bake melalui streamlit dengan terhubung dengan github[Dokumentasi Streamlit](https://docs.streamlit.io/)
-3. Run dengan address deployment dengan akhiran **.io**
+## Menjalankan App 💻
+- Jalankan skrip dengan streamlit run ./src/app.py
+- Akses aplikasi di peramban Web dengan alamat http://localhost:8501/
 
 ## Deskripsi : Model, Hasil, Analisis
 **Preprocessing**
