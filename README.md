@@ -1,4 +1,4 @@
-# ✨ Klasifikasi Otomatis Jenis Ternak Sapi dengan ResNet50 dan MobileNetV2 ✨
+# ✨ Klasifikasi Otomatis Jenis Ternak Sapi dengan InceptionV3 dan MobileNetV2 ✨
 
 <div style="text-align: center;">
   <img src="src/assetsReadme/Aes_CommonKingFisher.jpg" alt="" width="700">
